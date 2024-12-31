@@ -1,0 +1,41 @@
+# ML
+El Machine Learning (ML) es un subcampo de la inteligencia artificial que se centra en el desarrollo 
+de algoritmos y modelos estadísticos que permiten a los sistemas computacionales inferir patrones y 
+tomar decisiones basadas en datos, sin requerir instrucciones explícitas para cada tarea. Estos modelos 
+se entrenan mediante el ajuste iterativo de parámetros con base en la minimización de funciones de costo, 
+con el objetivo de mejorar su capacidad predictiva o clasificatoria.
+
+# Clasificaciones de Machine Learning
+
+    Aprendizaje Supervisado: Consiste en el entrenamiento de modelos con datos etiquetados (X,y), donde 'X' 
+    representa las características de entrada y 'y' las etiquetas de salida. 
+        
+        Ejemplos: regresión lineal, árboles de decisión y SVM.
+
+    Aprendizaje No Supervisado: Trabaja con datos sin etiquetar, empleando técnicas como clustering 
+    (e.g., k-means) y reducción de dimensionalidad (e.g., PCA) para identificar estructuras latentes en los datos.
+    
+    Aprendizaje por Refuerzo: Utiliza agentes que interactúan con un entorno dinámico, aprendiendo a maximizar 
+    una función de recompensa acumulativa mediante políticas optimizadas. Ejemplo: algoritmos Q-Learning y Deep Q-Networks.
+
+# Proceso de Desarrollo de Modelos
+
+Preparación de Datos:
+    Preprocesamiento: limpieza de datos, manejo de valores atípicos y normalización.
+    Ingeniería de Características: extracción y selección de variables relevantes.
+
+Selección del Modelo:
+    Algoritmos adaptados a problemas específicos (regresión, clasificación, clustering).
+    Modelos deterministas (SVM, regresión) o probabilísticos (Bayes ingenuo, HMM).
+
+Entrenamiento y Validación:
+    Partición de datos en conjuntos de entrenamiento, validación y prueba.
+    Ajuste de hiperparámetros mediante búsqueda en cuadrícula o aleatoria.
+
+Evaluación:
+    Métricas como exactitud, precisión, recall, F1-score para clasificación; error cuadrático medio (MSE) y coeficiente
+    R^2 para regresión.
+    Validación cruzada para evaluar la generalización.
+
+Despliegue:
+    Implementación en entornos de producción con pipelines automatizados.

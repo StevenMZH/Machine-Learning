@@ -1,0 +1,31 @@
+# Aprendizaje Supervisado
+El aprendizaje supervisado es una técnica de machine learning en la que un modelo se entrena con un conjunto 
+de datos etiquetados, es decir, datos donde cada entrada (X) está asociada con una salida conocida (y). 
+Su objetivo es aprender una función de mapeo f(X)→y que permita predecir la salida correspondiente para 
+nuevas entradas no vistas.
+
+# Clasificacion de Problemas:
+    Regresión: Predicción de valores continuos ( y∈R).
+        Ejemplo: Predicción del precio de una casa.
+
+    Clasificación: Asignación de etiquetas discretas = y∈{c1,c2,...,ck}.
+        Ejemplo: Reconocimiento de dígitos en imágenes.
+
+# Métodos y Algoritmos:
+
+    Regresión Lineal y Logística: Modelos básicos para regresión y clasificación binaria.
+    Árboles de Decisión y Bosques Aleatorios: Modelos interpretables y potentes.
+    Máquinas de Soporte Vectorial (SVM): Algoritmos que maximizan márgenes de clasificación.
+    Redes Neuronales: Especialmente útiles para datos complejos como imágenes o texto.
+
+# Evaluación:
+Se utilizan métricas como la precisión, sensibilidad, especificidad y F1-score para clasificación; 
+y el error cuadrático medio (MSE) o coeficiente R^2 para regresión.
+
+Ventajas
+Proporciona resultados precisos en problemas bien definidos con datos etiquetados.
+Gran cantidad de algoritmos disponibles para adaptarse a diferentes problemas.
+
+Limitaciones
+Depende de la calidad y cantidad de datos etiquetados, cuya obtención puede ser costosa.
+Sus predicciones pueden no generalizar bien si los datos de prueba difieren significativamente de los de entrenamiento.
